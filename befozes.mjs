@@ -1,8 +1,8 @@
 import fs from "fs";
 
-const file = fs.readFileSync("uvegek.txt", { encoding: "UTF8" })
-const content = file.trim().split(",")
-const arr = content.map((e) => +e)
+const file = fs.readFileSync("uvegek.txt", { encoding: "UTF8" });
+const content = file.trim().split(",");
+const arr = content.map((e) => +e);
 console.log("2. feladat: ");
 const input = 25;
 if (input > 200 || input < 0) {
